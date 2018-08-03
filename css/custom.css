@@ -4,12 +4,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
              
-i {
-	font-family: 'Raleway', sans-serif;
-} 
+
 /* div {
 	border: 1px solid black;
-}     */  
+}   */   
 hr {
 	border: 0.5px solid grey;
 	/* margin-top: 4em; */
@@ -21,9 +19,10 @@ hr {
 
 
 /* header image style */
-#header-container {
+#header-container, #datenschutz {
 	margin-top: 15em;
 }
+
 .thumbnail {
     position: relative;
 }
@@ -43,22 +42,21 @@ hr {
 /* Navbar styling */
 .navbar {
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: .8;
 	height: 14em;
 }
 .navbar-toggler {
             background: lightcoral;
-            color: #fff;
+            /* color: #fff; */
         }
-.custom-color {
-  background-color:#FFFFFF;
-}
+
+
 
 
 /* If the screen size is less than 768px */
 @media only screen and (max-width: 767px) {
   .navbar {
-  	height: 5em;
+  	margin-top: 2em;
   }
   #logo {
   	width: 8em;
@@ -97,7 +95,7 @@ hr {
 }
 
 /* unvisited link */
-a:link {
+a:link.bold {
     color: black;
     font-weight: bold;
     font-size: 1.3em;
@@ -114,7 +112,7 @@ a {
 	text-decoration: none;
 }
 
-a:focus, a:hover, a:active {
+a:focus.bold, a:hover.bold, a:active.bold {
   color: #F08080;
 }
 #footer {
@@ -131,6 +129,11 @@ a:focus, a:hover, a:active {
 }
 #footer a {
 	text-decoration: none;
+}
+.button {
+  background-color: #23434A;
+  border: none;
+  color:white;
 }
 
 /* -------------------------------- */
