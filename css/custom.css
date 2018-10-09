@@ -6,7 +6,7 @@ body {
 
 /* div {
 	border: 1px solid black;
-}   */   
+}    */
 hr {
 	border: 0.5px solid grey;
 	/* margin-top: 4em; */
@@ -136,9 +136,9 @@ a:focus.bold, a:hover.bold, a:active.bold {
 }
 
 
-#contact {
+/* #contact {
   background-color: pink;
-}
+} */
 
 /* -------------------------------- */
 
