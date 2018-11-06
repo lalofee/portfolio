@@ -115,16 +115,16 @@ a:focus.bold, a:hover.bold, a:active.bold {
   color: #F08080;
 }
 #footer {
-	background-color: #23434A;
+	background-color: #23434A;;
 	min-height: 15em;
-	color: #fff;
+	color: #ffff;
 	font-size: 0.8em;
 }
 #footer-bottom {
 	background-color: #F08080;
 }
 #footer i, span {
-	color:  #fff;
+	color: #ffff;
 }
 #footer a {
 	text-decoration: none;
